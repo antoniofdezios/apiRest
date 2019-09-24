@@ -23,6 +23,5 @@ router = routers.DefaultRouter()
 router.register(r'food',FoodViewSet)
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
     url(r'^api/',include(router.urls))
 ]
