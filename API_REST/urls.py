@@ -20,7 +20,7 @@ from rest_framework import routers
 from firstapp.views import FoodViewSet
 
 router = routers.DefaultRouter()
-router.register(r'posts',FoodViewSet)
+router.register(r'food',FoodViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
